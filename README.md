@@ -48,3 +48,5 @@ If you encounter the "bufio.Scanner: token too long" error like I experienced be
 
 ### Contributing
 Contributions are welcome! If you find any issues or have ideas to improve the utility, feel free to open an issue or submit a pull request. Please follow the standard GitHub practices for contributions.
+### Contact
+you can always reach me at ramadanebrahim791@gmail.com
