@@ -1,6 +1,6 @@
 # Search Tool in Go
 
-This is a simple command-line utility written in Go that searches for a specific text pattern within files in a given directory and its subdirectories. It displays the filenames, line numbers, and lines containing the search pattern.
+This is a simple command-line utility I wrote in Go that searches for a specific text pattern within files in a given directory and its subs. It displays the filenames, line numbers, and lines containing the search pattern, too (except err ofcourse)
 
 ## Table of Contents
 
