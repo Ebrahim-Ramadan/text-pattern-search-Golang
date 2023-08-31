@@ -9,6 +9,7 @@ This is a simple command-line utility I wrote in Go that searches for a specific
 - [Python Comparison](#Python-Comparison)
 - [Process Time](#Process-Time)
 - [Contributing](#contributing)
+- [Contact](#Contact)
 
 
 ## Usage
@@ -63,3 +64,13 @@ the values are pretty similar to each other but the way they vary someitmes is s
 Contributions are welcome! If you find any issues or have ideas to improve the utility, feel free to open an issue or submit a pull request. Please follow the standard GitHub practices for contributions.
 ### Contact
 you can always reach me at ramadanebrahim791@gmail.com
+
+
+
+
+
+
+
+
+
+
