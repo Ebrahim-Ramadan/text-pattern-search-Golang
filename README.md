@@ -6,9 +6,10 @@ This is a simple command-line utility I wrote in Go that searches for a specific
 
 - [Usage](#usage)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 - [Python Comparison](#Python-Comparison)
+- [Process Time](#Process-Time)
+- [Contributing](#contributing)
+
 
 ## Usage
 
@@ -46,6 +47,7 @@ go run main.go /path/to/search/directory "-the pattern-"
 
 If you encounter the "bufio.Scanner: token too long" error like I experienced bearlier, you can adjust the buffer size in the searchInFile function in the main.go file. A larger buffer size can handle longer lines more efficiently. but also remember to find a balance between buffer size and memory usage. (optimum)
 <br>
+
 ## Python Comparison
 - **Performance: Go is a compiled language, while Python is an interpreted language. This difference in execution model often gives Go an advantage in terms of raw performance, especially for CPU-bound tasks like text searching.**
 - **Concurrency: Go has built-in support for concurrency with goroutines and channels. This can lead to efficient parallel processing of tasks, which is beneficial in scenarios like searching through multiple files concurrently.**
@@ -53,7 +55,10 @@ If you encounter the "bufio.Scanner: token too long" error like I experienced be
 - **Static Typing: Go is statically typed, which allows the compiler to perform optimizations based on the known data types. Python's dynamic typing can introduce some runtime overhead.** 
 - **Optimized Libraries: Go's standard library includes optimized routines for common tasks like text processing, which can contribute to better performance.**
 
-
+## Process Time
+some search per line outputs as it took 535.8µs, 533µs, 506.9µs, 525.9µs, 67.9µs, 999.2µs, 531.5µs
+<br>
+the values are pretty similar to each other but the way they vary someitmes is still confusing to me, that's why for more accurate timing measurements, I might consider running my program in a controlled environment, such as on a dedicated machine with minimal background processes. Also, I could perform multiple runs and calculate the average processing time to get a clearer picture of the actual processing time for each line. More to come, and please any contributions are very needed indeed.
 ### Contributing
 Contributions are welcome! If you find any issues or have ideas to improve the utility, feel free to open an issue or submit a pull request. Please follow the standard GitHub practices for contributions.
 ### Contact
