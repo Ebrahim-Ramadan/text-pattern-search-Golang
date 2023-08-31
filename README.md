@@ -47,7 +47,7 @@ go run main.go /path/to/search/directory "-the pattern-"
 If you encounter the "bufio.Scanner: token too long" error like I experienced bearlier, you can adjust the buffer size in the searchInFile function in the main.go file. A larger buffer size can handle longer lines more efficiently. but also remember to find a balance between buffer size and memory usage. (optimum)
 <br>
 ## Python Comparison
-- **Performance:** Go is a compiled language, while Python is an interpreted language. This difference in execution model often gives Go an advantage in terms of raw performance, especially for CPU-bound tasks like text searching.
+- **Performance: Go is a compiled language, while Python is an interpreted language. This difference in execution model often gives Go an advantage in terms of raw performance, especially for CPU-bound tasks like text searching.**
 <br>
 - **Concurrency:** Go has built-in support for concurrency with goroutines and channels. This can lead to efficient parallel processing of tasks, which is beneficial in scenarios like searching through multiple files concurrently.
 <br>
