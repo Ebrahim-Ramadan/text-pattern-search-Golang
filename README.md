@@ -1,4 +1,4 @@
-# CLI-based Search Tool in Go
+# CLI-based Search Tool in Golang. v1.0
 
 This is a simple command-line utility I wrote in Go that searches for a specific text pattern within files in a given directory and its subs. It displays the filenames, line numbers, and lines containing the search pattern, too (except err ofcourse)
 
